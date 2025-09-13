@@ -1,0 +1,16 @@
+if SHIELD_atolator_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "atolator"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_atolator_LEFT || SHIELD_atolator_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
