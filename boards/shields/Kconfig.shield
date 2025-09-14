@@ -1,6 +1,0 @@
-config SHIELD_atolator_LEFT
-    def_bool $(shields_list_contains,atolator_left)
-
-config SHIELD_atolator_RIGHT
-    def_bool $(shields_list_contains,atolator_right)
-
