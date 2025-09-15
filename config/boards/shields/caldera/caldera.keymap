@@ -21,18 +21,5 @@
      &kp N0  &kp N1    &kp N2    &kp N3     &kp N4     &kp N5              &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
                         >;
                 };
-                lower_layer {
-// ------------------------------------------------------------------------------------------------------------
-// |       |  BT1  |  BT2  |  BT3  |  BT4  |  BT5  |          |       |       |       |       |       | BTCLR |
-// |       |       |       |       |       |       |          |       |       |       |       |       |       |
-// |       |       |       | LPAR  | RPAR  |       |          |       | LBKT  | RBKT  |       |       |       |
-// |       |       |       |       |       |       |          |       |       |       |       |       |       |
-                        bindings = <
-   &trans    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4           &trans    &trans    &trans   &trans   &trans  &bt BT_CLR
-   &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &trans
-   &trans    &trans         &trans         &kp LPAR       &kp RPAR       &trans                 &trans    &kp LBKT  &kp RBKT &kp MINUS   &kp EQUAL  &trans
-   &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &trans
-                        >;
-                };
         };
 };rrrrEbƒƒfffff`123er
